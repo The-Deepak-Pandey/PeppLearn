@@ -48,8 +48,8 @@ const CourseDetail = () => {
                     <p className="text-sm" dangerouslySetInnerHTML={{__html:course.description}} />
                     <Card>
                         <CardHeader>
-                            <CardTitle>Coure Content</CardTitle>
-                            <CardDescription>4 lectures</CardDescription>
+                            <CardTitle>Course Content</CardTitle>
+                            <CardDescription>{course.lectures.length} lectures</CardDescription>
                         </CardHeader>
                         <CardContent className="space-y-3">
                             {
